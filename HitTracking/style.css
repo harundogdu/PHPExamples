@@ -1,0 +1,28 @@
+*{
+	text-decoration: none;
+	font-family: Trebuchet MS;
+}
+body{
+	background-color: #8D6E63;
+}
+a{
+	color: #141414;
+}
+a:hover{
+	font-size: 17px;
+	transition-duration: 500ms;
+	color: #EEEEEE;
+}
+table{
+	width: 1000px;
+	margin: 0 auto;
+}
+table td{
+	height: 20px;
+	padding: 10px;
+	width: 80%;
+}
+
+table td:last-child{
+	width: 250px;
+}
