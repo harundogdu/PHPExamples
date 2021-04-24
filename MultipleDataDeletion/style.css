@@ -1,0 +1,42 @@
+table{
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-size: 16px;
+	font-weight: 600;
+	color: #34495e;	
+	width: 50%;		
+}
+table td{
+	padding: 10px;
+}
+table td {
+	border:1px solid #34495e;
+}
+table tr:hover {
+	background-color: #3498db;			
+	color: #fff;
+}
+table tr:first-child{
+	background-color: #34495e;	
+	color: #fff;	
+}
+table tr:last-child:hover{
+	background-color: transparent;		
+}
+input[type="submit"]{			
+	background-color: #34495e;
+	color: #fff;
+	padding: 10px;	
+	border: none;
+	border-radius:25px;
+	font-weight: 600;
+	cursor: pointer;
+	width: 50%;
+}
+input[type="submit"]:hover{
+	background-color: #3498db;			
+	color: #fff;	
+}
+body{
+	background-color: #95a5a6;
+}		
