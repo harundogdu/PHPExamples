@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    /*background-color:#FFEE58;*/
+    background: linear-gradient(to left, #da4453, #89216b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    /* background-color: #FFEE58; */
+    padding-left: 0;
+    box-shadow: 5px 15px 30px #000;
+    font-weight: 600;
+}
+.container .form{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#emailHelp{
+    font-size: 14px;
+}
